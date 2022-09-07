@@ -131,6 +131,37 @@ body{
 	margin: 29px auto;
 }
 
+.box{
+	width: 31%;
+	height: auto;
+	border: 1px solid rgb(222, 219, 219)
+	margin-right: 1%;
+    background: white;
+	border-radius: 10px;
+	transition: 0.8;
+	
+}
+
+.box-hover{
+	box-shadow: 0 0 10px rgba(40, 39, 39, 0.5);
+	cursor: pointer;
+}
+img{
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+h3,p{
+	text-align: center;
+	color: rgb(106, 104, 104);
+}
+p{
+	font-size: 14px;
+	padding: 0 5px;
+
+}
+
 /*hero image rick and morty image from free images online, reusing image button and ufo png i used on power cosmic website i was making information learned from code institute w3 schools you tube tutorials*/
 .hero-image {
     background-image: url(/assets/images/rick-and-morty-background-jurokoo-deviantart-19.jpg);
