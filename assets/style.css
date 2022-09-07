@@ -124,7 +124,12 @@ body{
 	font-family: 'Times New Roman', Times, serif;
 }
 
-
+.container {
+	display: flex;
+	width: 900px;
+	height: auto;
+	margin: 29px auto;
+}
 
 /*hero image rick and morty image from free images online, reusing image button and ufo png i used on power cosmic website i was making information learned from code institute w3 schools you tube tutorials*/
 .hero-image {
