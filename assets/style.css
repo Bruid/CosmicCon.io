@@ -210,27 +210,26 @@ ul li {
     font-size: 150%;
     color:rgb(244, 238, 238);
 }
-
-.footer-list {
-    text-decoration: none;
-list-style-type: none;
+/*looked at codepen to help with css social media icons https://codepen.io/vishalamipara/pen/ZEYZVvr*/
+.social-icons{
+	padding:28px;
+	background-color: #1cb9ed;
+	text-align: center;
 }
-.facebook {
-    color: blue;
-    text-decoration: none;
+.social-icons a{
+	color: rgb(244, 240, 240);
+	line-height: 28px;
+	font-size: 28px;
+	margin: 0 5px;
+	text-decoration: none;
 }
+.social-icons a i{
+	line-height: 28px;
+	font-size: 28px;
 
-.instagram {
-    color: white;
-    text-decoration: none;
 }
-
-.twitter {
-    color: blue;
-    text-decoration: none;
-}
-
-.youtube {
-    color: red;
-    text-decoration: none;
+.social-icons a i{
+	line-height: 28px;
+	font-size: 28px;
+	
 }
