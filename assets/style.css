@@ -198,3 +198,8 @@ nav .icon-burger .line {
 .ufo img:nth-child(1){
     animation-delay: 1s;
 }
+/*style for footer social media*/
+
+footer {
+    height: 140px;
+}
