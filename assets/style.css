@@ -203,3 +203,8 @@ nav .icon-burger .line {
 footer {
     height: 140px;
 }
+
+ul li {
+    display: inline;
+    text-align: center;
+}
