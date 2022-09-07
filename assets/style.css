@@ -161,7 +161,17 @@ p{
 	padding: 0 5px;
 
 }
-
+@media (max-width: 800px){
+	.container{
+		width: 84%;
+		display: block;
+	}
+	.box{
+		width: 100%;
+		margin-bottom: 4.5%;
+		
+	}
+}
 /*hero image rick and morty image from free images online, reusing image button and ufo png i used on power cosmic website i was making information learned from code institute w3 schools you tube tutorials*/
 .hero-image {
     background-image: url(/assets/images/rick-and-morty-background-jurokoo-deviantart-19.jpg);
