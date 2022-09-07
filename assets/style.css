@@ -207,4 +207,30 @@ footer {
 ul li {
     display: inline;
     text-align: center;
+    font-size: 150%;
+    color:rgb(244, 238, 238);
+}
+
+.footer-list {
+    text-decoration: none;
+list-style-type: none;
+}
+.facebook {
+    color: blue;
+    text-decoration: none;
+}
+
+.instagram {
+    color: white;
+    text-decoration: none;
+}
+
+.twitter {
+    color: blue;
+    text-decoration: none;
+}
+
+.youtube {
+    color: red;
+    text-decoration: none;
 }
