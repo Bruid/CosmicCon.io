@@ -215,6 +215,7 @@ ul li {
 	padding:28px;
 	background-color: #1cb9ed;
 	text-align: center;
+	
 }
 .social-icons a{
 	color: rgb(244, 240, 240);
@@ -231,5 +232,25 @@ ul li {
 .social-icons a i{
 	line-height: 28px;
 	font-size: 28px;
-	
+	-webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+/*used their scales for webkit transition etc*/
+.social-icons a:hover i{
+	box-shadow: 0px 0px 150px #110f0f;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
 }
