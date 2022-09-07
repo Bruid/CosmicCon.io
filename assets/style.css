@@ -4,7 +4,7 @@ html{
 }
 
 body {
-    background-image: url("/assets/images/horizon-3929969_960_720.jpg");
+    background-image: url("/assets/images/rick-and-morty-background-jurokoo-deviantart-19.jpg");
     background-repeat: repeat;
     width: 100%;
     height: 100%;
@@ -117,4 +117,84 @@ nav .icon-burger .line {
 		opacity: 0;
 	}
 	
+}
+/*hero image rick and morty image from free images online, reusing image button and ufo png i used on power cosmic website i was making information learned from code institute w3 schools you tube tutorials*/
+.hero-image {
+    background-image: url(/assets/images/rick-and-morty-background-jurokoo-deviantart-19.jpg);
+    height: 750px;
+    width: 100%;
+    margin-top: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    
+    font-size: 29px;
+    border-radius: 15px;
+    background-size: cover;
+}
+.hero-button {
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: slategray;
+   
+    
+}
+.hero-link {
+    text-decoration: none;
+    
+}
+.hero-text {
+    text-align: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.information h2  {
+    text-align: center;
+    flex-wrap: wrap;
+}
+.details {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    float: left;
+      
+}
+.ufo img {
+    width: 50px;
+    animation: ufo 6s linear infinite;
+
+}
+.ufo img {
+    width: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+@keyframes ufo {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+}
+    70%{
+    
+    opacity: 1;
+}
+    100%{
+    transform: translateY(-80vh);
+    opacity: 0;
+}
+}
+.ufo img:nth-child(1){
+    animation-delay: 1s;
 }
