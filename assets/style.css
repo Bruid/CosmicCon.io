@@ -298,25 +298,51 @@ ul li {
 .social-icons a i{
 	line-height: 28px;
 	font-size: 28px;
-	-webkit-transition: all 200ms ease-in;
-  -webkit-transform: scale(1); 
-  -ms-transition: all 200ms ease-in;
-  -ms-transform: scale(1); 
-  -moz-transition: all 200ms ease-in;
-  -moz-transform: scale(1);
-  transition: all 200ms ease-in;
-  transform: scale(1);
 }
 /*used their scales for webkit transition etc*/
-.social-icons a:hover i{
-	box-shadow: 0px 0px 150px #110f0f;
-  z-index: 2;
-  -webkit-transition: all 200ms ease-in;
-  -webkit-transform: scale(1.5);
-  -ms-transition: all 200ms ease-in;
-  -ms-transform: scale(1.5);   
-  -moz-transition: all 200ms ease-in;
-  -moz-transform: scale(1.5);
-  transition: all 200ms ease-in;
-  transform: scale(1.5);
+
+
+.fa-facebook-square{
+	color: blue;
+	text-shadow: 5px;
+}
+
+.fa-facebook-square:hover{
+	font-size: 30px;
+	color: black;
+}
+
+.fa-youtube-square{
+	color: red;
+}
+
+.fa-youtube-square:hover{
+	font-size: 30px;
+	color: black;
+}
+
+.fa-twitter-square{
+	color: rgb(0, 234, 255);
+}
+
+.fa-twitter-square:hover{
+	font-size: 30px;
+	color: black;
+}
+.fa-instagram{
+	color: purple;
+}
+
+.fa-instagram:hover{
+	font-size: 30px;
+	color: black;
+}
+
+.fa-pinterest-p{
+	color: green;
+}
+
+.fa-pinterest-p:hover{
+	font-size: 30px;
+	color: black;
 }
