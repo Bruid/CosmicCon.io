@@ -134,7 +134,7 @@ body{
 .box{
 	width: 31%;
 	height: auto;
-	border: 1px solid rgb(222, 219, 219)
+	border: 1px solid rgb(222, 219, 219);
 	margin-right: 1%;
     background: white;
 	border-radius: 10px;
@@ -252,13 +252,16 @@ p{
 .ufo img:nth-child(1){
     animation-delay: 1s;
 }
-/*style for footer social media*/
-
+/*style for footer*/
+footer{
+height: 10px;
+background-color: rgb(222, 219, 219);
+}
 .social-icons {
 	position: fixed;
 	bottom: 0;
-	margin-top: 350px;
-    height: 100px;
+	
+    
 	width: 100%;
 	margin-bottom: 0%;
 
@@ -275,7 +278,6 @@ ul li {
 /*looked at codepen to help with css social media icons https://codepen.io/vishalamipara/pen/ZEYZVvr*/
 .social-icons{
 	padding:28px;
-	background-color: lightgrey;
 	text-align: center;
 	align-items: center;
 	word-spacing: 20px;
