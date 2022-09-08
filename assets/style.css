@@ -127,7 +127,7 @@ nav .icon-burger .line {
 	display: flex;
 	width: 900px;
 	height: auto;
-	margin: 750px auto;
+	margin: 0px auto;
 	margin-bottom: 30px;
 }
 
@@ -281,18 +281,17 @@ img{
 .ufo img:nth-child(1){
     animation-delay: 1s;
 }
-/*style for footer*/
+/*---------------------------------------------------------------------------------style for footer*/
 footer{
 height: 10px;
 background-color: rgb(222, 219, 219);
-}
-.social-icons {
-	position: fixed;
 	bottom: 0;
-	
-    
 	width: 100%;
 	margin-bottom: 0%;
+	padding:28px;
+	text-align: center;
+	align-items: center;
+	word-spacing: 40px;
 
 }
 
@@ -305,13 +304,7 @@ ul li {
 
 
 /*looked at codepen to help with css social media icons https://codepen.io/vishalamipara/pen/ZEYZVvr*/
-.social-icons{
-	padding:28px;
-	text-align: center;
-	align-items: center;
-	word-spacing: 20px;
 
-}
 .social-icons a{
 	color: rgb(244, 240, 240);
 	line-height: 28px;
@@ -324,10 +317,7 @@ ul li {
 	font-size: 28px;
 
 }
-.social-icons a i{
-	line-height: 28px;
-	font-size: 28px;
-}
+
 /*used their scales for webkit transition etc*/
 
 
@@ -337,7 +327,7 @@ ul li {
 }
 
 .fa-facebook-square:hover{
-	font-size: 30px;
+	font-size: 35px;
 	color: black;
 }
 
@@ -346,7 +336,7 @@ ul li {
 }
 
 .fa-youtube-square:hover{
-	font-size: 30px;
+	font-size: 35px;
 	color: black;
 }
 
@@ -355,7 +345,7 @@ ul li {
 }
 
 .fa-twitter-square:hover{
-	font-size: 30px;
+	font-size: 35px;
 	color: black;
 }
 .fa-instagram{
@@ -363,7 +353,7 @@ ul li {
 }
 
 .fa-instagram:hover{
-	font-size: 30px;
+	font-size: 35px;
 	color: black;
 }
 
@@ -372,6 +362,6 @@ ul li {
 }
 
 .fa-pinterest-p:hover{
-	font-size: 30px;
+	font-size: 35px;
 	color: black;
 }
