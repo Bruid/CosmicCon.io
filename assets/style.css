@@ -254,8 +254,14 @@ p{
 }
 /*style for footer social media*/
 
-footer {
-    height: 140px;
+.social-icons {
+	position: fixed;
+	bottom: 0;
+	margin-top: 350px;
+    height: 100px;
+	width: 100%;
+	margin-bottom: 0%;
+
 }
 
 ul li {
@@ -269,8 +275,10 @@ ul li {
 /*looked at codepen to help with css social media icons https://codepen.io/vishalamipara/pen/ZEYZVvr*/
 .social-icons{
 	padding:28px;
-	background-color: #1cb9ed;
+	background-color: lightgrey;
 	text-align: center;
+	align-items: center;
+	word-spacing: 20px;
 
 }
 .social-icons a{
