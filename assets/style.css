@@ -212,7 +212,6 @@ img{
 	text-decoration: none;
 	border-bottom: none;
 
-
 }
 
 .hero-link {
@@ -240,6 +239,14 @@ img{
     float: left;
       
 }
+
+.hero-small-text{
+	color: white;
+	font-size: 25px;
+	padding: 0 5px;
+
+}
+
 .ufo img {
     width: 50px;
     animation: ufo 6s linear infinite;
