@@ -11,3 +11,59 @@ body{
     align-items: center;
     padding:0 25px;
 }
+hr{
+    width: 70%;
+}
+h2{
+    font-size: 22px;
+}
+.contact-items{
+    display: flex;
+    margin: 33px auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.robo-helper, .curious-minds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 29%;
+    margin: 31px auto;
+    padding: 35px 15px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 260px;
+}
+.robo-helper{ height: 250px;
+    box-shadow: 0 16px 16px red;
+    border: 1px black;
+
+}
+.curious-minds{
+    height: 250px;
+    box-shadow: 0 16px 16px blueviolet;
+    border: 1px black;
+}
+p{font-size: 16px;
+}
+button{
+padding: 9px 17px;
+font-size: 18px;
+border-radius: 25px;
+border: none;
+margin: 15px auto;
+cursor: pointer;
+color: brown;
+}
+
+button:hover{
+    color: grey
+}
+#robo-helper{
+    background: rgb(210, 230, 239);
+    box-shadow: 0 0 5px black;
+}
+#curious-minds{
+    background: rgb(3, 110, 132);
+    box-shadow: 0 0 5px black;
+}
