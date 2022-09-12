@@ -1,69 +1,208 @@
-body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(96, 236, 236);
-    background-color: rgb(239, 228, 228);
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:0 25px;
-}
-hr{
-    width: 70%;
-}
-h2{
-    font-size: 22px;
-}
-.contact-items{
-    display: flex;
-    margin: 33px auto;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.robo-helper, .curious-minds{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 29%;
-    margin: 31px auto;
-    padding: 35px 15px;
-    border-radius: 15px;
-    text-align: center;
-    max-width: 260px;
-}
-.robo-helper{ height: 250px;
-    box-shadow: 0 16px 16px red;
-    border: 1px black;
-
-}
-.curious-minds{
-    height: 250px;
-    box-shadow: 0 16px 16px blueviolet;
-    border: 1px black;
-}
-p{font-size: 16px;
-}
-button{
-padding: 9px 17px;
-font-size: 18px;
-border-radius: 25px;
-border: none;
-margin: 15px auto;
-cursor: pointer;
-color: brown;
+html{
+    height: 100%;
+    width: 100%;
 }
 
-button:hover{
-    color: grey
+body {
+    background-image: url("/assets/images/contact-page-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
 }
-#robo-helper{
-    background: rgb(210, 230, 239);
-    box-shadow: 0 0 5px black;
+/*add nav bar style from https://codepen.io/MinzCode/pen/bGexzXw*/
+nav {
+    position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	
+	padding: 0 5%;
+	height: 100px;
+	background-color: rgb(244, 238, 238);
 }
-#curious-minds{
-    background: rgb(3, 110, 132);
-    box-shadow: 0 0 5px black;
+nav .logo {
+	float: left;
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 25px;
+	color: black;
 }
+nav .links {
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav .links li {
+	list-style: none;
+}
+nav .links a {
+	display: block;
+	padding: 1em;
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+}
+
+nav .link a:hover {
+	color: brown;
+}
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+nav .icon-burger {
+	display: none;
+	position: absolute;
+	right: 6%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+nav .icon-burger .line {
+	width: 30px;
+	height: 6px;
+	background-color: black;
+	margin: 6px;
+	border-radius: 4px;
+	transition: all .4s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+	nav .logo {
+		float: none;
+		width: auto;
+		justify-content: center;
+	}
+	nav .links {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 100px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: grey;
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .4s ease-in-out;
+	}
+	nav .links a {
+		font-size: 24px;
+	}
+	nav :checked ~ .links {
+		bottom: 0;
+	}
+	nav .icon-burger {
+		display: block;
+	}
+	nav :checked ~ .icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+	
+}
+
+
+
+/*---------------------------------------------------------------------------------style for footer*/
+footer{
+    height: 10px;
+    background-color: rgb(222, 219, 219);
+        bottom: 0;
+        width: 100%;
+        margin-bottom: 0%;
+        padding:28px;
+        text-align: center;
+        align-items: center;
+        word-spacing: 40px;
+    
+    }
+    
+    ul li {
+        display: inline;
+        text-align: center;
+        font-size: 150%;
+        color:rgb(244, 238, 238);
+    }
+    
+    
+    /*looked at codepen to help with css social media icons https://codepen.io/vishalamipara/pen/ZEYZVvr*/
+    
+    .social-icons a{
+        color: rgb(244, 240, 240);
+        line-height: 28px;
+        font-size: 28px;
+        margin: 0 5px;
+        text-decoration: none;
+    }
+    .social-icons a i{
+        line-height: 28px;
+        font-size: 28px;
+    
+    }
+    
+    /*used their scales for webkit transition etc*/
+    
+    
+    .fa-facebook-square{
+        color: blue;
+        
+    }
+    
+    .fa-facebook-square:hover{
+        font-size: 35px;
+        color: black;
+    }
+    
+    .fa-youtube-square{
+        color: red;
+    }
+    
+    .fa-youtube-square:hover{
+        font-size: 35px;
+        color: black;
+    }
+    
+    .fa-twitter-square{
+        color: rgb(0, 234, 255);
+    }
+    
+    .fa-twitter-square:hover{
+        font-size: 35px;
+        color: black;
+    }
+    .fa-instagram{
+        color: purple;
+    }
+    
+    .fa-instagram:hover{
+        font-size: 35px;
+        color: black;
+    }
+    
+    .fa-pinterest-p{
+        color: green;
+    }
+    
+    .fa-pinterest-p:hover{
+        font-size: 35px;
+        color: black;
+    }
