@@ -4,13 +4,14 @@ html{
 }
 
 body {
-    background-image: url("/assets/images/contact-page-background.jpg");
-    background-repeat: no-repeat;
+    background-image: url("/assets/images/pexels-pixabay-220201.jpg");
+    background-repeat: repeat;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: 100%;
+    
 }
 /*add nav bar style from https://codepen.io/MinzCode/pen/bGexzXw*/
 nav {
@@ -121,6 +122,32 @@ nav .icon-burger .line {
 }
 
 /*Start of form for contact form---------------------------------------------------------------------*/
+
+
+
+
+.form-header{
+text-align: center;
+color:#fff;
+font-size: 30px;
+margin-top: 150px;
+
+}
+
+.form-header-h2 {
+text-align: center;
+color:#fff;
+font-size: 20px;
+}
+
+
+.form-divider{
+    background-color:#fff;
+    border: 1px #fff;
+    width: 33%;
+    height: 5px;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -132,6 +159,10 @@ nav .icon-burger .line {
     border-radius: 5px;
     resize: vertical;
   }
+
+  input:hover {
+    color: #f1be16;
+  }
   
   label {
     padding: 13px 13px 12px 0;
@@ -139,10 +170,10 @@ nav .icon-burger .line {
   }
   
   input[type=submit] {
-    background-color: #f1f4f3;
+    background-color: #17e19e;
     color: rgb(12, 11, 11);
     padding: 13px 20px;
-    border: none;
+    border: 1px #fff;
     border-radius: 5px;
     float: right;
   }
@@ -155,7 +186,7 @@ nav .icon-burger .line {
     border-radius: 6px;
     background-color:  #f2f2f2;
     padding: 21px;
-    margin-top: 300px;
+    margin-top: 130px;
     width: 80%;
     align-content: center;
     justify-content: center;
@@ -182,6 +213,9 @@ nav .icon-burger .line {
     display: table;
     clear: both;
   }
+
+
+
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
