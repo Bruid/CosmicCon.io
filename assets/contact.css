@@ -120,8 +120,76 @@ nav .icon-burger .line {
 	
 }
 
-
-
+/*Start of form for contact form---------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(111, 111, 111);
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 13px 13px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #f1f4f3;
+    color: rgb(12, 11, 11);
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #f1be16;
+  }
+  
+  .container {
+    border-radius: 6px;
+    background-color:  #f2f2f2;
+    padding: 21px;
+    margin-top: 300px;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 7px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
 /*---------------------------------------------------------------------------------style for footer*/
 footer{
     height: 10px;
@@ -133,6 +201,7 @@ footer{
         text-align: center;
         align-items: center;
         word-spacing: 40px;
+        margin-top: 150px;
     
     }
     
