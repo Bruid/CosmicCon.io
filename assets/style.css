@@ -128,6 +128,7 @@ nav .icon-burger .line {
 	height: auto;
 	margin: 0px auto;
 	margin-bottom: 31px;
+	border: none;
 }
 
 .box{
@@ -147,8 +148,7 @@ nav .icon-burger .line {
 }
 img{
 	width: 100%;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border-radius: 20px;
 
 }
 
