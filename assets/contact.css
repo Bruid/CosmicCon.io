@@ -55,8 +55,9 @@ nav .links a {
 	text-decoration: none;
 }
 
-nav .link a:hover {
-	color: brown;
+nav .links a:hover {
+	color: rgb(61, 43, 226);
+	font-size: 19px;
 }
 #nav-toggle {
 	position: absolute;
@@ -161,10 +162,10 @@ font-size: 20px;
   }
 
   input:hover {    
-    background-color: #f1be16;
+    background-color: rgb(226, 173, 16);
     transition: 0s;
+    color: #fff;
   }
-  
  
   
   input[type=submit] {
@@ -177,7 +178,7 @@ font-size: 20px;
   }
   
   input[type=submit]:hover {
-    background-color: #f1be16;
+    background-color: rgb(226, 173, 16);
   }
   
   .container {
