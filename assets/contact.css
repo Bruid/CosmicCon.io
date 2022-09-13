@@ -4,7 +4,7 @@ html{
 }
 
 body {
-    background-image: url("/assets/images/pexels-pixabay-220201.jpg");
+    background-image: url("../assets/images/pexels-pixabay-220201.jpg");
     background-repeat: repeat;
     background-position: center;
     -webkit-background-size: cover;
