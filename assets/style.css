@@ -11,6 +11,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: auto;
+	font-family: sans-serif;
 	
 }
 /*add nav bar style from https://codepen.io/MinzCode/pen/bGexzXw*/

@@ -39,5 +39,28 @@ CosmicCon project has 3 pages in total, the first being [Home-Page](index.html),
 
 * ### Typography 
 
+- For this project the font that was used was sans-serif, as this is a standard font and if other fonts would not load this font will load as a fallback font.
+
+* ### Color Scheme
+
+- The colors chosen for this project were chosen so the images and hover psuedo attributes etc would stand out to the eye not causing the reader or visitor to have to focus on key areas to render the information on the screen.
+
+## Features
+
+- CosmicCons a site that is pretty easy to use and navigate through with links and pages connecting to each other, it contains features that the user would typically be familiar with, such as a nav bar, footer element, social media links and a contact form.
 
 
+## Existing Features 
+
+  * ### Navigation Menu
+
+  - The navbar is loacted at the top of the page where it contains a logo or shows the name of the company "CosmicCon" this navbar structure contains 3 links which navigate to the other two pages and the home linking back to the index page. When rendered on a small device the navbar collapses and and hides the logo icon using media queries, and also forms a burger icon so that the links/tabs of the navbar are structured well and not clustered all over the screen.
+
+  * ### About-Us
+
+  - The about us page/ section contains information of the company and its purpose. In this about us section there is an image contained to the right side of the paragraph, with social media icons linking actively to the social media platforms of each icon. The header in the about us section is a h1 element and also shares a font awesome icon to make the website look more inviting/ designed better.
+
+  * ### Footer
+
+- The footer is located at the bottom of the page where it stays fixed and does not move with the user when scrolled.
+- The footer did have a word-spacing effect in css but in mobile design the icons were overflowing so the spacing was reduced/ removed and now they render well all the way down to 230px screen width.

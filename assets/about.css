@@ -10,6 +10,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: 100%;
+	font-family: sans-serif;
     
 }
 /*add nav bar style from https://codepen.io/MinzCode/pen/bGexzXw*/
@@ -31,6 +32,7 @@ nav .logo {
 	align-items: center;
 	font-size: 25px;
 	color: black;
+	font-family: sans-serif;
 }
 nav .links {
 	float: right;
@@ -58,6 +60,7 @@ nav .links a {
 	font-size: 18px;
 	color: black;
 	text-decoration: none;
+	font-family: sans-serif;
 }
 
 nav .links a:hover {
@@ -152,6 +155,7 @@ footer{
         text-align: center;
         align-items: center;
         word-spacing: 40px;
+		font-family: sans-serif;
     
     }
     
@@ -160,6 +164,7 @@ footer{
         text-align: center;
         font-size: 150%;
         color:rgb(244, 238, 238);
+		font-family: sans-serif;
     }
     
     
@@ -171,6 +176,7 @@ footer{
         font-size: 28px;
         margin: 0 5px;
         text-decoration: none;
+		font-family: sans-serif;
     }
     .social-icons a i{
         line-height: 28px;
@@ -190,6 +196,7 @@ footer{
 		background-color: #ddd;
 		margin-top: 150px;
 		border-radius: 30px;
+		font-family: sans-serif;
 	}
 	.container{
 		width: 80%;
@@ -202,6 +209,7 @@ footer{
 
 	.about-heading{
 		font-size: 35px;
+		font-family: sans-serif;
 	}
 
 	.content-section{
@@ -223,20 +231,24 @@ footer{
 	.content-section .title{
 		text-transform: uppercase;
 		font-size: 28px;
+		font-family: sans-serif;
 	}
 	.content-section .content h3{
 		margin-top: 20px;
 		color:#5d5d5d;
 		font-size: 21px;
+		font-family: sans-serif;
 	}
 	.content-section .content p{
 		margin-top: 10px;
 		font-family: sans-serif;
 		font-size: 18px;
 		line-height: 1.5;
+		font-family: sans-serif;
 	}
 	.content-section .content .button{
 		margin-top: 30px;
+		font-family: sans-serif;
 	}
 
 .button a {
