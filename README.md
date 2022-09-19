@@ -52,15 +52,30 @@ CosmicCon project has 3 pages in total, the first being [Home-Page](index.html),
 
 ## Existing Features 
 
-  * ### Navigation Menu
+* ### Navigation Menu
 
   - The navbar is loacted at the top of the page where it contains a logo or shows the name of the company "CosmicCon" this navbar structure contains 3 links which navigate to the other two pages and the home linking back to the index page. When rendered on a small device the navbar collapses and and hides the logo icon using media queries, and also forms a burger icon so that the links/tabs of the navbar are structured well and not clustered all over the screen.
 
-  * ### About-Us
+* ### About-Us
 
   - The about us page/ section contains information of the company and its purpose. In this about us section there is an image contained to the right side of the paragraph, with social media icons linking actively to the social media platforms of each icon. The header in the about us section is a h1 element and also shares a font awesome icon to make the website look more inviting/ designed better.
 
-  * ### Footer
+* ### Footer
 
 - The footer is located at the bottom of the page where it stays fixed and does not move with the user when scrolled.
 - The footer did have a word-spacing effect in css but in mobile design the icons were overflowing so the spacing was reduced/ removed and now they render well all the way down to 230px screen width.
+
+* ### Contact Us
+
+- This section was created for the user to contact the team directly at CosmicCon, by inputting their details and queries into the form element on the contact page.
+
+
+* ### Future Features to Implement to the website
+
+Future plans for this website would be to add a download feature where users can download copies or sample editions of books, comics or even watch movie reviews linked from other websites like youtube or IMBD where it is all present in the one place and searchable by a search function.
+
+
+* ## Technologies Used
+
+-  HTML - *Used to create a basic standard webpage*
+-  CSS - *Used to design and add styles to the webpage and help it standout better*
