@@ -79,3 +79,37 @@ Future plans for this website would be to add a download feature where users can
 
 -  HTML - *Used to create a basic standard webpage*
 -  CSS - *Used to design and add styles to the webpage and help it standout better*
+
+* ## Testing of the Website
+
+
+## Bugs Found
+
+
+# Deployment
+
+
+### **To deploy the project to Github**
+
+
+### **To create a local clone of this project**
+
+
+### To view this page from the github terminal:
+
+* ## Validator Tools Used:
+
+
+# Credits
+
+## Content
+
+
+## Media
+
+
+### Acknowledgements of assistance of work used in this project
+
+
+
+
