@@ -11,6 +11,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: auto;
+	
 }
 /*add nav bar style from https://codepen.io/MinzCode/pen/bGexzXw*/
 nav {
@@ -19,7 +20,6 @@ nav {
 	left: 0;
 	right: 0;
 	top: 0;
-	
 	padding: 0 5%;
 	height: 100px;
 	background-color: rgb(244, 238, 238);
@@ -43,6 +43,12 @@ nav .links {
 	justify-content: space-around;
 	align-items: center;
 }
+
+
+#active {
+	border-bottom: 2px solid #000;
+  }
+
 nav .links li {
 	list-style: none;
 }
@@ -58,6 +64,12 @@ nav .links a:hover {
 	color: rgb(61, 43, 226);
 	font-size: 19px;
 }
+
+.links > li > a:hover {
+	border-bottom-color: #000;
+	border-bottom: 2px solid #000;
+  }
+
 #nav-toggle {
 	position: absolute;
 	top: -100px;
@@ -120,6 +132,15 @@ nav .icon-burger .line {
 	}
 	
 }
+
+@media screen and (max-width: 268px){
+	.fa-rocket {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+
 /*Navbar-Ends*/
 
 .cards-heading{
@@ -131,12 +152,24 @@ nav .icon-burger .line {
 
 .cards-divider{
 	width: 25%;
-	background-color: rgb(61, 43, 226);
+	background-color: #000;
 	height: 6px;
 	border-radius: 20px;
 	margin-bottom: 30px;
 }
 
+.cards-buttons {
+	background-color: rgb(160, 156, 156);
+	color: #000;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+.cards-buttons:hover {
+	background-color: rgb(61, 43, 226);
+	color: #000;
+	font-size: 15.5px;
+}
 
 
 .container {
@@ -171,7 +204,7 @@ img{
 .container-headings{
 	text-align: center;
 	font-size: 25px;
-	color: brown;
+	color: rgb(27, 27, 27);
 	background-color: white;
 }
 .container-text{
@@ -311,7 +344,7 @@ background-color: rgb(222, 219, 219);
 	padding:28px;
 	text-align: center;
 	align-items: center;
-	word-spacing: 40px;
+	word-spacing: 30px;
 
 }
 
@@ -338,6 +371,22 @@ ul li {
 
 }
 
+
+
+@media screen and (max-width: 427px) {
+	.social-icons {
+		height: 10px;
+		background-color: rgb(222, 219, 219);
+		bottom: 0;
+		width: 100%;
+		margin-bottom: 0%;
+		padding: 28px;
+		text-align: center;
+		align-items: center;
+		/* word-spacing: 40px; */
+	}
+}
+
 /*used their scales for webkit transition etc*/
 
 
@@ -347,15 +396,6 @@ ul li {
 }
 
 .fa-facebook-square:hover{
-	font-size: 35px;
-	color: black;
-}
-
-.fa-youtube-square{
-	color: red;
-}
-
-.fa-youtube-square:hover{
 	font-size: 35px;
 	color: black;
 }
@@ -373,15 +413,6 @@ ul li {
 }
 
 .fa-instagram:hover{
-	font-size: 35px;
-	color: black;
-}
-
-.fa-pinterest-p{
-	color: green;
-}
-
-.fa-pinterest-p:hover{
 	font-size: 35px;
 	color: black;
 }

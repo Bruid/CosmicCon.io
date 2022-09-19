@@ -44,6 +44,12 @@ nav .links {
 	justify-content: space-around;
 	align-items: center;
 }
+
+
+#active {
+	border-bottom: 2px solid #000;
+  }
+
 nav .links li {
 	list-style: none;
 }
@@ -59,6 +65,12 @@ nav .links a:hover {
 	color: rgb(61, 43, 226);
 	font-size: 19px;
 }
+
+.links > li > a:hover {
+	border-bottom-color: #000;
+	border-bottom: 2px solid #000;
+  }
+  
 #nav-toggle {
 	position: absolute;
 	top: -100px;
@@ -120,6 +132,13 @@ nav .icon-burger .line {
 		opacity: 0;
 	}
 	
+}
+
+@media screen and (max-width: 268px){
+	.fa-rocket {
+		display: none;
+		visibility: hidden;
+	}
 }
 
 /*Start of form for contact form---------------------------------------------------------------------*/
@@ -224,12 +243,12 @@ font-size: 20px;
   }
 /*---------------------------------------------------------------------------------style for footer*/
 footer{
-    height: 10px;
-    background-color: rgb(222, 219, 219);
+        height: 10px;
+        background-color: rgb(222, 219, 219);
         bottom: 0;
         width: 100%;
         margin-bottom: 0%;
-        padding:28px;
+        padding:32px;
         text-align: center;
         align-items: center;
         word-spacing: 40px;
@@ -273,15 +292,6 @@ footer{
         color: black;
     }
     
-    .fa-youtube-square{
-        color: red;
-    }
-    
-    .fa-youtube-square:hover{
-        font-size: 35px;
-        color: black;
-    }
-    
     .fa-twitter-square{
         color: rgb(0, 234, 255);
     }
@@ -299,11 +309,3 @@ footer{
         color: black;
     }
     
-    .fa-pinterest-p{
-        color: green;
-    }
-    
-    .fa-pinterest-p:hover{
-        font-size: 35px;
-        color: black;
-    }
