@@ -159,7 +159,9 @@ to remove or cut ties with github and its repositories in the terminal inside gi
 * ## Validator Tools Used:
 
 1. [W3C-HTML-Validator](https://validator.w3.org/) :This was used to validate my html code and test for errors and update the code to fix any errors, this is used by copying and pasting the code in to use the validator to check and then paste back in.
+![Design](/assets/images/HTML%20errors.png).
 2. [Jigsaw-W3-CSS-Validator](https://jigsaw.w3.org/css-validator/validator):  This was used to validate my css code and test for errors and update the code to fix any errors, this is used by copying and pasting the code in to use the validator to check and then paste back in.
+![Design](/assets/images/Css%20errors.png).
 ![Design](/assets/images/Css-Validation.png).
 3. [Web-formatter-tool](https://webformatter.com/css) : This was used to format my code to make the indentations correct to clean and position my code correctly and neatly by copying into the editor running it and then pasting it back into the gitpod.
 ![Design](/assets/images/formating.png)

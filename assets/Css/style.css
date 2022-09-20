@@ -183,7 +183,6 @@ html {
 	margin-right: 1%;
 	background: white;
 	border-radius: 10px;
-	transition: 0.8;
  }
  
  .box-hover {
@@ -224,7 +223,6 @@ html {
 	margin-top: 10px;
 	background-position: center;
 	background-repeat: no-repeat;
-	position: center;
 	font-size: 29px;
 	border-radius: 15px;
 	background-size: cover;
