@@ -11,7 +11,7 @@ A live version of my website CosmicCon can be found [here](https://bruid.github.
 
 
 
-![Design](/images/)
+![Design](/assets/images/design-image.png)
 
 
 
