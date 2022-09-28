@@ -195,3 +195,5 @@ Pexels was used for the free image gathering [Pexels](https://www.pexels.com/)
 - For the card section I tried muyltiple ways to complete this but when trying different methods it was disrupting my other stylea and elements. I used assistance from [Code-Info-Web](https://www.codeinfoweb.com/2021/03/Responsive%20Cards.html) for the cards I changed the images, added styles and colors and font sizes, I also added hover psuedo attributes and also links to sources and also border radiuses etc.
 
 - For the about section I used assistance and changed styles to fit my website needs and added css and html to improve it different for my site [GitHub])(https://github.com/dhakallena/Responsive-About-Us-section-Using-Html-And-Css)
+
+- I used inspiration for this websites animated spaceship design from [Youtube](https://www.youtube.com/watch?v=CZTCciHE72I&t=1s)
